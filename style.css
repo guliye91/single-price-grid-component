@@ -41,6 +41,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .intro h1{
     color:  hsl(179, 62%, 43%);
@@ -64,6 +66,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     color: hsl(0, 0%, 90%);
+    border-bottom-left-radius: 10px;
 }
 .subscription #full{
     margin-top: -30px;
@@ -78,6 +81,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     color: hsl(0, 0%, 90%);
+    border-bottom-right-radius: 10px;
 }
 .why-us ul{
     margin-top: 10px;
@@ -161,10 +165,12 @@ span{
     .subscription{
         grid-row: 2 / span 1;
         grid-column: 1 / span 1;
+        border-bottom-left-radius: 0;
     }
     .why-us{
         grid-row: 3 / span 1;
         grid-column: 1 /span 1;
+        border-bottom-left-radius: 10px;
     }
     .subscription #full{
         margin: 10px 0 30px;
